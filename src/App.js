@@ -14,7 +14,6 @@ import Skillbars from './Components/Skillbars'
 function App() {
   return ( 
     <div className="App">
-      <Navbar/>
       <Router>
       <Routes>
           <Route path = "/" element = { <Navbar/>}></Route>
