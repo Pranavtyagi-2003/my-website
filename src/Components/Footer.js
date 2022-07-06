@@ -27,7 +27,7 @@ export class Footer extends Component {
           <Link to="/contactus" class="link-1">Contact</Link>
 				</p>
 
-				<p class="footer-company-name">Copyright © 2022 | Codify Programming</p>
+				<p class="footer-company-name">Copyright © 2022 | Codify Programming hello</p>
 			</div>
 
 			<div class="footer-center">
