@@ -14,7 +14,7 @@ function Navbar() {
         <div className="lefthalf">
             <img src={logo} alt="Logo" />
             <ul className='navlist v-class'>
-                <li><Link to="/home">Home</Link></li>
+                <li><Link to="/home">Home Is my</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/blog">Blog</Link></li>
                 <li><Link to="/course">Course</Link></li>
