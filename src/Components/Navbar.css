@@ -41,14 +41,14 @@
     margin: auto;
 }
 .righthalf{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 10px;
 }
-.righthalf input{
-    margin: 0 2px;
-    padding: 0 15px;
-    border-radius: 14px;
+.righthalf h3{
+    color: white;
+    margin: auto;
+}
+.righthalf h3 span{
+    color:  lightseagreen;
 }
 .background{
     background: rgba(0, 0, 0, 0.7) url('../images/bg.jpg');
@@ -90,23 +90,24 @@
     margin: 0px 5px;
 }
 .burger{
-    display:none;
+    display: none;
     position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 20px;
+    right: 10px;
+    top: 7px;
 }
 .line{
      width: 33px;
      background-color: white;
      height: 4px;
      margin: 3px 3px;
+     border-radius: 2px;
 }
 
 
-@media only screen and (max-width: 700px){
+@media screen and (max-width: 831px){
     .navbar{
         flex-direction: column;
+        transition: all 1.7s ease-out;
     }
     .lefthalf{
         flex-direction: column;
@@ -129,6 +130,9 @@
         opacity: 0;
     } */
     .lefthalf img{
-        margin-left: 130%;
+        display: none;
+    }
+    .righthalf{
+       margin-left: 8px;
     }
 }

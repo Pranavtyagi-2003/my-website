@@ -17,7 +17,7 @@ export class Footer extends Component {
 
 			<div class="footer-left">
 
-				<h3>Codify<span>Programming</span></h3>
+				<h3>Codify <span>Programming</span></h3>
 
 				<p class="footer-links">
 					<Link to="/home" class="link-1">Home | </Link>
